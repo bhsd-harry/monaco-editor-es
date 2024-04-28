@@ -5,7 +5,6 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   mode: 'production',
   entry: {
-    "editor.main": 'monaco-editor/esm/vs/editor/editor.main',
     "workers/editor.worker": 'monaco-editor/esm/vs/editor/editor.worker',
     "workers/json.worker": 'monaco-editor/esm/vs/language/json/json.worker',
     "workers/css.worker": 'monaco-editor/esm/vs/language/css/css.worker',
@@ -23,10 +22,6 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
-      },
-      {
-        test: /\.ttf$/,
-        use: ['file-loader']
       }
     ]
   },
@@ -43,7 +38,9 @@ module.exports = {
     })
   ],
   // weird kludge required by css-loader
-  node: {
-    fs: 'empty'
+  resolve: {
+    fallback: {
+      fs: false
+    }
   }
 };
