@@ -1,1 +1,3 @@
 .github/
+.vscode/
+webpack.config.js
