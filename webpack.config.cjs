@@ -42,5 +42,9 @@ module.exports = {
     fallback: {
       fs: false
     }
+  },
+  performance: {
+    maxAssetSize: 5_000_000,
+    maxEntrypointSize: 5_000_000
   }
 };
