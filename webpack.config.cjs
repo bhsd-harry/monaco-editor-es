@@ -15,15 +15,15 @@ module.exports = {
     globalObject: 'self',
     filename: '[name].js',
     path: path.resolve(__dirname),
-    publicPath: "/"
+    publicPath: "/",
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      }
-    ]
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
   },
   plugins: [
     // don't chunk the output
@@ -35,16 +35,16 @@ module.exports = {
       patterns: [
         { from: 'node_modules/monaco-editor/ThirdPartyNotices.txt' },
       ],
-    })
+    }),
   ],
   // weird kludge required by css-loader
   resolve: {
     fallback: {
-      fs: false
-    }
+      fs: false,
+    },
   },
   performance: {
-    maxAssetSize: 5_000_000,
-    maxEntrypointSize: 5_000_000
-  }
+    maxAssetSize: 6_144_000,
+    maxEntrypointSize: 6_144_000,
+  },
 };
