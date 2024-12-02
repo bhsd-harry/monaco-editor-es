@@ -1,4 +1,2 @@
-.github/
 .vscode/
-.eslintignore
 webpack.config.cjs
