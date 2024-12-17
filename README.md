@@ -1,8 +1,7 @@
 <h1 align="center">Monaco-Editor-ES</h1>
 
 <div align="center">
-  <a href="https://github.com/bhsd-harry/monaco-editor-es/tags"><img src="https://badgen.net/github/tag/bhsd-harry/monaco-editor-es" alt="GitHub Tags"></a>
-  <a href="https://www.npmjs.com/package/@bhsd/monaco-editor-es"><img src="https://badgen.net/npm/v/@bhsd/monaco-editor-es" alt="NPM Release"></a>
+  <a href="https://www.npmjs.com/package/@bhsd/monaco-editor-es"><img src="https://badgen.net/npm/v/@bhsd%2Fmonaco-editor-es" alt="NPM Version"></a>
 </div>
 
 ## Installation
