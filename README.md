@@ -1,7 +1,7 @@
 <h1 align="center">Monaco-Editor-ES</h1>
 
 <div align="center">
-  <a href="https://www.npmjs.com/package/@bhsd/monaco-editor-es"><img src="https://badgen.net/npm/v/@bhsd%2Fmonaco-editor-es" alt="NPM Version"></a>
+  <a href="https://www.npmjs.com/package/@bhsd/monaco-editor-es"><img src="https://badge.fury.io/js/@bhsd%2Fmonaco-editor-es.svg" alt="NPM Version"></a>
 </div>
 
 ## Installation
