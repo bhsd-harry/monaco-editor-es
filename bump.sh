@@ -3,7 +3,7 @@ npm i monaco-editor@$1 && npm run build && rm 614.js
 if [[ $? -eq 0 ]]
 then
 	sed -i '' -E "s/\"version\": \".+\"/\"version\": \"$1\"/" package.json
-	git fetch
+	git fetch --prune --prune-tags
 	git add -A
 	git commit -m "$1"
 	git push
