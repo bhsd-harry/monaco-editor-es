@@ -1,5 +1,5 @@
 node_modules/
 workers/
 .vscode/
-ThirdPartyNotices.txt
+*.txt
 package-lock.json

@@ -12,9 +12,13 @@
   },
   "author": "Evan Plaice <evanplaice@gmail.com> (https://evanplaice.com/)",
   "license": "MIT",
-  "type": "module",
+	"files": [
+		"/workers/",
+		"*.txt"
+	],
+  "main": "editor.main.js",
   "scripts": {
-    "build": "webpack --config webpack.config.cjs"
+    "build": "webpack --config webpack.config.cjs && rm [0-9]*.js*"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^12.0.2",
