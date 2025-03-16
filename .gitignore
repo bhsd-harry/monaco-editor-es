@@ -1,0 +1,5 @@
+node_modules/
+workers/
+.vscode/
+*.txt
+package-lock.json
