@@ -1,26 +1,20 @@
 {
 	"name": "@bhsd/monaco-editor-es",
 	"version": "0.52.2",
-	"description": "Monaco Editor Builds for ESM",
+	"description": "ESM workers for Monaco editor",
 	"keywords": [
 		"esm",
+		"worker",
 		"monaco"
 	],
-	"homepage": "https://github.com/bhsd-harry/monaco-editor-es#readme",
-	"bugs": {
-		"url": "https://github.com/bhsd-harry/monaco-editor-es/issues"
-	},
 	"license": "MIT",
-	"author": "Bhsd",
+	"author": "Bhsd (https://github.com/bhsd-harry)",
 	"files": [
 		"/workers/",
 		"*.txt"
 	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/bhsd-harry/monaco-editor-es.git"
-	},
 	"scripts": {
+		"lint": "eslint .",
 		"build": "node build.js"
 	},
 	"devDependencies": {
