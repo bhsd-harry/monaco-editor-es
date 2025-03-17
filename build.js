@@ -1,6 +1,7 @@
 'use strict';
 
-const esbuild = require('esbuild');
+const fs = require('fs'),
+	esbuild = require('esbuild');
 
 const entries = [
 	'editor/editor.worker.js',
@@ -18,5 +19,8 @@ for (const entry of entries) {
 		minify: true,
 		target: 'es2019',
 		outdir: 'workers',
+		logLevel: 'info',
 	});
 }
+
+fs.copyFileSync(require.resolve('monaco-editor/ThirdPartyNotices.txt'), 'ThirdPartyNotices.txt');
