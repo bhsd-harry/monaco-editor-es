@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/@bhsd%2Fmonaco-editor-es.svg)](https://www.npmjs.com/package/@bhsd/monaco-editor-es)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/bc35dcab287b4cdf80ca077942264f58)](https://app.codacy.com/gh/bhsd-harry/monaco-editor-es/dashboard)
 
 # Usage
 
