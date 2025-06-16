@@ -13,9 +13,8 @@ const entries = [
 	/** @type {esbuild.BuildOptions} */ commonOptions = {
 		charset: 'utf8',
 		bundle: true,
-		minify: true,
-		target: 'es2019',
-		outdir: 'workers',
+		format: 'esm',
+		outdir: 'build',
 		logLevel: 'info',
 	};
 
